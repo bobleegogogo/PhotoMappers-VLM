@@ -1,0 +1,17 @@
+Lifeline,Model,N_valid_kappa,N_valid_agreement,Status
+Safety and Security,InternVL3-8B,30,30,Valid
+Safety and Security,Qwen3.6-27B,30,30,Valid
+"Food, Hydration, Shelter",InternVL3-8B,30,30,Valid
+"Food, Hydration, Shelter",Qwen3.6-27B,30,30,Valid
+Health and Medical,InternVL3-8B,30,30,Valid
+Health and Medical,Qwen3.6-27B,30,30,Valid
+Energy,InternVL3-8B,30,30,Valid
+Energy,Qwen3.6-27B,30,30,Valid
+Communications,InternVL3-8B,29,30,Partially available
+Communications,Qwen3.6-27B,30,30,Valid
+Transportation,InternVL3-8B,30,30,Valid
+Transportation,Qwen3.6-27B,30,30,Valid
+Hazardous Materials,InternVL3-8B,30,30,Valid
+Hazardous Materials,Qwen3.6-27B,29,30,Partially available
+Water Systems,InternVL3-8B,24,30,Partially available
+Water Systems,Qwen3.6-27B,9,30,Partially available

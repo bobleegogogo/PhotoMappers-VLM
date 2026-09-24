@@ -1,0 +1,49 @@
+Lifeline,Model,Reasoning Evidence,Mean_kappa,Mean_Agreement
+Safety and Security,Qwen3.6-27B,Appearance,0.690578532121157,0.6830827067669172
+Safety and Security,Qwen3.6-27B,Spatial layout,0.7677012963944029,0.7518796992481203
+Safety and Security,Qwen3.6-27B,Landmark cue,0.4988993898705797,0.5994112640090793
+Safety and Security,InternVL3-8B,Appearance,0.3887086032018951,0.550751879699248
+Safety and Security,InternVL3-8B,Spatial layout,0.4452095302538437,0.6007518796992481
+Safety and Security,InternVL3-8B,Landmark cue,0.2875626856929046,0.4890963257199603
+"Food, Hydration, Shelter",Qwen3.6-27B,Appearance,0.6756645179511984,0.6650429799426936
+"Food, Hydration, Shelter",Qwen3.6-27B,Spatial layout,0.7691904393465354,0.7553008595988541
+"Food, Hydration, Shelter",Qwen3.6-27B,Landmark cue,0.5008204472133923,0.6135963178869019
+"Food, Hydration, Shelter",InternVL3-8B,Appearance,0.3805960785542314,0.5277936962750717
+"Food, Hydration, Shelter",InternVL3-8B,Spatial layout,0.40763953772621664,0.57621776504298
+"Food, Hydration, Shelter",InternVL3-8B,Landmark cue,0.2387230384662007,0.48090109672957215
+Health and Medical,Qwen3.6-27B,Appearance,0.7817951844629192,0.7
+Health and Medical,Qwen3.6-27B,Spatial layout,0.7894709359080615,0.7466666666666666
+Health and Medical,Qwen3.6-27B,Landmark cue,0.497047360521499,0.6533333333333335
+Health and Medical,InternVL3-8B,Appearance,0.48878162204132697,0.5733333333333333
+Health and Medical,InternVL3-8B,Spatial layout,0.48023474045476516,0.6133333333333333
+Health and Medical,InternVL3-8B,Landmark cue,0.30146982607563466,0.5266666666666667
+Energy,Qwen3.6-27B,Appearance,0.6507136832296808,0.64625
+Energy,Qwen3.6-27B,Spatial layout,0.7309928679472849,0.71875
+Energy,Qwen3.6-27B,Landmark cue,0.5383294215031397,0.64375
+Energy,InternVL3-8B,Appearance,0.2761643183936573,0.49749999999999994
+Energy,InternVL3-8B,Spatial layout,0.3508688264836543,0.5375
+Energy,InternVL3-8B,Landmark cue,0.18008328660342962,0.4525
+Communications,Qwen3.6-27B,Appearance,0.4396620046620046,0.675
+Communications,Qwen3.6-27B,Spatial layout,0.6855555555555556,0.8
+Communications,Qwen3.6-27B,Landmark cue,0.503968253968254,0.725
+Communications,InternVL3-8B,Appearance,0.2005555555555556,0.4
+Communications,InternVL3-8B,Spatial layout,0.09174242424242425,0.45
+Communications,InternVL3-8B,Landmark cue,0.10119047619047622,0.35
+Transportation,Qwen3.6-27B,Appearance,0.6528598484183552,0.6829126213592233
+Transportation,Qwen3.6-27B,Spatial layout,0.7356378358685018,0.7403422613426015
+Transportation,Qwen3.6-27B,Landmark cue,0.5262126326735768,0.6128434891012805
+Transportation,InternVL3-8B,Appearance,0.2425172175398246,0.5312621359223301
+Transportation,InternVL3-8B,Spatial layout,0.31547826415501656,0.5665203430168866
+Transportation,InternVL3-8B,Landmark cue,0.2006120167814749,0.47471912659136406
+Hazardous Materials,Qwen3.6-27B,Appearance,0.6296296296296298,0.7
+Hazardous Materials,Qwen3.6-27B,Spatial layout,0.3666666666666668,0.5
+Hazardous Materials,Qwen3.6-27B,Landmark cue,0.0666666666666667,0.4
+Hazardous Materials,InternVL3-8B,Appearance,0.6666666666666669,0.6
+Hazardous Materials,InternVL3-8B,Spatial layout,0.8,0.8
+Hazardous Materials,InternVL3-8B,Landmark cue,0.4666666666666668,0.55
+Water Systems,Qwen3.6-27B,Appearance,0.0,0.4
+Water Systems,Qwen3.6-27B,Spatial layout,0.0,0.8
+Water Systems,Qwen3.6-27B,Landmark cue,0.0,0.9
+Water Systems,InternVL3-8B,Appearance,0.0,0.1
+Water Systems,InternVL3-8B,Spatial layout,0.0,0.2
+Water Systems,InternVL3-8B,Landmark cue,0.0,0.3

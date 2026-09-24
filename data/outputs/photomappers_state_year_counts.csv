@@ -1,0 +1,481 @@
+Year,STATEFP,STUSPS,NAME,obs_count
+2017,21,KY,Kentucky,0
+2017,28,MS,Mississippi,0
+2017,31,NE,Nebraska,0
+2017,08,CO,Colorado,0
+2017,54,WV,West Virginia,0
+2017,56,WY,Wyoming,0
+2017,37,NC,North Carolina,0
+2017,05,AR,Arkansas,6
+2017,49,UT,Utah,0
+2017,48,TX,Texas,452
+2017,13,GA,Georgia,49
+2017,51,VA,Virginia,0
+2017,17,IL,Illinois,0
+2017,45,SC,South Carolina,7
+2017,01,AL,Alabama,0
+2017,19,IA,Iowa,0
+2017,29,MO,Missouri,0
+2017,38,ND,North Dakota,0
+2017,10,DE,Delaware,0
+2017,06,CA,California,0
+2017,47,TN,Tennessee,4
+2017,33,NH,New Hampshire,0
+2017,41,OR,Oregon,0
+2017,50,VT,Vermont,0
+2017,35,NM,New Mexico,0
+2017,22,LA,Louisiana,9
+2017,42,PA,Pennsylvania,1
+2017,46,SD,South Dakota,0
+2017,16,ID,Idaho,0
+2017,25,MA,Massachusetts,0
+2017,36,NY,New York,0
+2017,44,RI,Rhode Island,0
+2017,23,ME,Maine,0
+2017,40,OK,Oklahoma,0
+2017,53,WA,Washington,0
+2017,32,NV,Nevada,0
+2017,27,MN,Minnesota,0
+2017,04,AZ,Arizona,0
+2017,24,MD,Maryland,0
+2017,20,KS,Kansas,0
+2017,34,NJ,New Jersey,0
+2017,39,OH,Ohio,0
+2017,18,IN,Indiana,0
+2017,09,CT,Connecticut,0
+2017,55,WI,Wisconsin,0
+2017,12,FL,Florida,201
+2017,26,MI,Michigan,0
+2017,30,MT,Montana,0
+2018,21,KY,Kentucky,0
+2018,28,MS,Mississippi,0
+2018,31,NE,Nebraska,0
+2018,08,CO,Colorado,0
+2018,54,WV,West Virginia,0
+2018,56,WY,Wyoming,0
+2018,37,NC,North Carolina,519
+2018,05,AR,Arkansas,0
+2018,49,UT,Utah,0
+2018,48,TX,Texas,0
+2018,13,GA,Georgia,56
+2018,51,VA,Virginia,58
+2018,17,IL,Illinois,0
+2018,45,SC,South Carolina,48
+2018,01,AL,Alabama,14
+2018,19,IA,Iowa,0
+2018,29,MO,Missouri,0
+2018,38,ND,North Dakota,0
+2018,10,DE,Delaware,1
+2018,06,CA,California,0
+2018,47,TN,Tennessee,0
+2018,33,NH,New Hampshire,0
+2018,41,OR,Oregon,0
+2018,50,VT,Vermont,0
+2018,35,NM,New Mexico,0
+2018,22,LA,Louisiana,0
+2018,42,PA,Pennsylvania,1
+2018,46,SD,South Dakota,0
+2018,16,ID,Idaho,0
+2018,25,MA,Massachusetts,6
+2018,36,NY,New York,5
+2018,44,RI,Rhode Island,0
+2018,23,ME,Maine,0
+2018,40,OK,Oklahoma,0
+2018,53,WA,Washington,0
+2018,32,NV,Nevada,0
+2018,27,MN,Minnesota,0
+2018,04,AZ,Arizona,0
+2018,24,MD,Maryland,2
+2018,20,KS,Kansas,0
+2018,34,NJ,New Jersey,0
+2018,39,OH,Ohio,0
+2018,18,IN,Indiana,0
+2018,09,CT,Connecticut,0
+2018,55,WI,Wisconsin,0
+2018,12,FL,Florida,249
+2018,26,MI,Michigan,0
+2018,30,MT,Montana,0
+2019,21,KY,Kentucky,0
+2019,28,MS,Mississippi,3
+2019,31,NE,Nebraska,0
+2019,08,CO,Colorado,0
+2019,54,WV,West Virginia,0
+2019,56,WY,Wyoming,0
+2019,37,NC,North Carolina,94
+2019,05,AR,Arkansas,6
+2019,49,UT,Utah,0
+2019,48,TX,Texas,0
+2019,13,GA,Georgia,22
+2019,51,VA,Virginia,22
+2019,17,IL,Illinois,0
+2019,45,SC,South Carolina,90
+2019,01,AL,Alabama,1
+2019,19,IA,Iowa,0
+2019,29,MO,Missouri,1
+2019,38,ND,North Dakota,0
+2019,10,DE,Delaware,0
+2019,06,CA,California,1
+2019,47,TN,Tennessee,0
+2019,33,NH,New Hampshire,0
+2019,41,OR,Oregon,0
+2019,50,VT,Vermont,0
+2019,35,NM,New Mexico,0
+2019,22,LA,Louisiana,116
+2019,42,PA,Pennsylvania,0
+2019,46,SD,South Dakota,0
+2019,16,ID,Idaho,0
+2019,25,MA,Massachusetts,0
+2019,36,NY,New York,0
+2019,44,RI,Rhode Island,0
+2019,23,ME,Maine,0
+2019,40,OK,Oklahoma,0
+2019,53,WA,Washington,0
+2019,32,NV,Nevada,0
+2019,27,MN,Minnesota,0
+2019,04,AZ,Arizona,0
+2019,24,MD,Maryland,2
+2019,20,KS,Kansas,0
+2019,34,NJ,New Jersey,0
+2019,39,OH,Ohio,0
+2019,18,IN,Indiana,0
+2019,09,CT,Connecticut,0
+2019,55,WI,Wisconsin,0
+2019,12,FL,Florida,127
+2019,26,MI,Michigan,0
+2019,30,MT,Montana,0
+2020,21,KY,Kentucky,1
+2020,28,MS,Mississippi,144
+2020,31,NE,Nebraska,0
+2020,08,CO,Colorado,0
+2020,54,WV,West Virginia,0
+2020,56,WY,Wyoming,0
+2020,37,NC,North Carolina,67
+2020,05,AR,Arkansas,51
+2020,49,UT,Utah,0
+2020,48,TX,Texas,230
+2020,13,GA,Georgia,89
+2020,51,VA,Virginia,58
+2020,17,IL,Illinois,0
+2020,45,SC,South Carolina,117
+2020,01,AL,Alabama,206
+2020,19,IA,Iowa,0
+2020,29,MO,Missouri,0
+2020,38,ND,North Dakota,0
+2020,10,DE,Delaware,21
+2020,06,CA,California,0
+2020,47,TN,Tennessee,128
+2020,33,NH,New Hampshire,2
+2020,41,OR,Oregon,0
+2020,50,VT,Vermont,0
+2020,35,NM,New Mexico,0
+2020,22,LA,Louisiana,634
+2020,42,PA,Pennsylvania,33
+2020,46,SD,South Dakota,0
+2020,16,ID,Idaho,0
+2020,25,MA,Massachusetts,8
+2020,36,NY,New York,36
+2020,44,RI,Rhode Island,0
+2020,23,ME,Maine,2
+2020,40,OK,Oklahoma,9
+2020,53,WA,Washington,0
+2020,32,NV,Nevada,0
+2020,27,MN,Minnesota,0
+2020,04,AZ,Arizona,0
+2020,24,MD,Maryland,30
+2020,20,KS,Kansas,0
+2020,34,NJ,New Jersey,31
+2020,39,OH,Ohio,0
+2020,18,IN,Indiana,0
+2020,09,CT,Connecticut,48
+2020,55,WI,Wisconsin,0
+2020,12,FL,Florida,211
+2020,26,MI,Michigan,42
+2020,30,MT,Montana,0
+2021,21,KY,Kentucky,106
+2021,28,MS,Mississippi,39
+2021,31,NE,Nebraska,0
+2021,08,CO,Colorado,0
+2021,54,WV,West Virginia,4
+2021,56,WY,Wyoming,0
+2021,37,NC,North Carolina,1
+2021,05,AR,Arkansas,23
+2021,49,UT,Utah,0
+2021,48,TX,Texas,1
+2021,13,GA,Georgia,11
+2021,51,VA,Virginia,8
+2021,17,IL,Illinois,3
+2021,45,SC,South Carolina,0
+2021,01,AL,Alabama,46
+2021,19,IA,Iowa,0
+2021,29,MO,Missouri,7
+2021,38,ND,North Dakota,0
+2021,10,DE,Delaware,0
+2021,06,CA,California,0
+2021,47,TN,Tennessee,60
+2021,33,NH,New Hampshire,0
+2021,41,OR,Oregon,0
+2021,50,VT,Vermont,1
+2021,35,NM,New Mexico,0
+2021,22,LA,Louisiana,326
+2021,42,PA,Pennsylvania,73
+2021,46,SD,South Dakota,0
+2021,16,ID,Idaho,0
+2021,25,MA,Massachusetts,22
+2021,36,NY,New York,53
+2021,44,RI,Rhode Island,42
+2021,23,ME,Maine,0
+2021,40,OK,Oklahoma,0
+2021,53,WA,Washington,0
+2021,32,NV,Nevada,0
+2021,27,MN,Minnesota,0
+2021,04,AZ,Arizona,0
+2021,24,MD,Maryland,21
+2021,20,KS,Kansas,0
+2021,34,NJ,New Jersey,59
+2021,39,OH,Ohio,0
+2021,18,IN,Indiana,1
+2021,09,CT,Connecticut,26
+2021,55,WI,Wisconsin,0
+2021,12,FL,Florida,2
+2021,26,MI,Michigan,0
+2021,30,MT,Montana,0
+2022,21,KY,Kentucky,0
+2022,28,MS,Mississippi,7
+2022,31,NE,Nebraska,0
+2022,08,CO,Colorado,0
+2022,54,WV,West Virginia,0
+2022,56,WY,Wyoming,0
+2022,37,NC,North Carolina,25
+2022,05,AR,Arkansas,0
+2022,49,UT,Utah,0
+2022,48,TX,Texas,48
+2022,13,GA,Georgia,9
+2022,51,VA,Virginia,7
+2022,17,IL,Illinois,0
+2022,45,SC,South Carolina,52
+2022,01,AL,Alabama,14
+2022,19,IA,Iowa,0
+2022,29,MO,Missouri,0
+2022,38,ND,North Dakota,0
+2022,10,DE,Delaware,0
+2022,06,CA,California,0
+2022,47,TN,Tennessee,0
+2022,33,NH,New Hampshire,0
+2022,41,OR,Oregon,0
+2022,50,VT,Vermont,0
+2022,35,NM,New Mexico,0
+2022,22,LA,Louisiana,37
+2022,42,PA,Pennsylvania,0
+2022,46,SD,South Dakota,0
+2022,16,ID,Idaho,0
+2022,25,MA,Massachusetts,0
+2022,36,NY,New York,0
+2022,44,RI,Rhode Island,0
+2022,23,ME,Maine,0
+2022,40,OK,Oklahoma,10
+2022,53,WA,Washington,0
+2022,32,NV,Nevada,0
+2022,27,MN,Minnesota,0
+2022,04,AZ,Arizona,0
+2022,24,MD,Maryland,0
+2022,20,KS,Kansas,0
+2022,34,NJ,New Jersey,0
+2022,39,OH,Ohio,0
+2022,18,IN,Indiana,0
+2022,09,CT,Connecticut,0
+2022,55,WI,Wisconsin,0
+2022,12,FL,Florida,366
+2022,26,MI,Michigan,4
+2022,30,MT,Montana,0
+2023,21,KY,Kentucky,1
+2023,28,MS,Mississippi,70
+2023,31,NE,Nebraska,0
+2023,08,CO,Colorado,0
+2023,54,WV,West Virginia,0
+2023,56,WY,Wyoming,0
+2023,37,NC,North Carolina,9
+2023,05,AR,Arkansas,89
+2023,49,UT,Utah,0
+2023,48,TX,Texas,54
+2023,13,GA,Georgia,33
+2023,51,VA,Virginia,0
+2023,17,IL,Illinois,17
+2023,45,SC,South Carolina,29
+2023,01,AL,Alabama,51
+2023,19,IA,Iowa,8
+2023,29,MO,Missouri,1
+2023,38,ND,North Dakota,0
+2023,10,DE,Delaware,0
+2023,06,CA,California,534
+2023,47,TN,Tennessee,21
+2023,33,NH,New Hampshire,0
+2023,41,OR,Oregon,4
+2023,50,VT,Vermont,0
+2023,35,NM,New Mexico,0
+2023,22,LA,Louisiana,0
+2023,42,PA,Pennsylvania,0
+2023,46,SD,South Dakota,0
+2023,16,ID,Idaho,0
+2023,25,MA,Massachusetts,6
+2023,36,NY,New York,0
+2023,44,RI,Rhode Island,0
+2023,23,ME,Maine,10
+2023,40,OK,Oklahoma,0
+2023,53,WA,Washington,3
+2023,32,NV,Nevada,14
+2023,27,MN,Minnesota,0
+2023,04,AZ,Arizona,1
+2023,24,MD,Maryland,0
+2023,20,KS,Kansas,0
+2023,34,NJ,New Jersey,0
+2023,39,OH,Ohio,5
+2023,18,IN,Indiana,22
+2023,09,CT,Connecticut,0
+2023,55,WI,Wisconsin,2
+2023,12,FL,Florida,148
+2023,26,MI,Michigan,0
+2023,30,MT,Montana,0
+2024,21,KY,Kentucky,23
+2024,28,MS,Mississippi,5
+2024,31,NE,Nebraska,5
+2024,08,CO,Colorado,0
+2024,54,WV,West Virginia,7
+2024,56,WY,Wyoming,0
+2024,37,NC,North Carolina,317
+2024,05,AR,Arkansas,17
+2024,49,UT,Utah,0
+2024,48,TX,Texas,129
+2024,13,GA,Georgia,66
+2024,51,VA,Virginia,42
+2024,17,IL,Illinois,0
+2024,45,SC,South Carolina,118
+2024,01,AL,Alabama,11
+2024,19,IA,Iowa,5
+2024,29,MO,Missouri,0
+2024,38,ND,North Dakota,0
+2024,10,DE,Delaware,0
+2024,06,CA,California,0
+2024,47,TN,Tennessee,50
+2024,33,NH,New Hampshire,1
+2024,41,OR,Oregon,0
+2024,50,VT,Vermont,0
+2024,35,NM,New Mexico,0
+2024,22,LA,Louisiana,122
+2024,42,PA,Pennsylvania,22
+2024,46,SD,South Dakota,0
+2024,16,ID,Idaho,0
+2024,25,MA,Massachusetts,2
+2024,36,NY,New York,12
+2024,44,RI,Rhode Island,7
+2024,23,ME,Maine,1
+2024,40,OK,Oklahoma,49
+2024,53,WA,Washington,0
+2024,32,NV,Nevada,0
+2024,27,MN,Minnesota,0
+2024,04,AZ,Arizona,0
+2024,24,MD,Maryland,9
+2024,20,KS,Kansas,0
+2024,34,NJ,New Jersey,4
+2024,39,OH,Ohio,36
+2024,18,IN,Indiana,7
+2024,09,CT,Connecticut,0
+2024,55,WI,Wisconsin,0
+2024,12,FL,Florida,435
+2024,26,MI,Michigan,0
+2024,30,MT,Montana,0
+2025,21,KY,Kentucky,100
+2025,28,MS,Mississippi,3
+2025,31,NE,Nebraska,0
+2025,08,CO,Colorado,0
+2025,54,WV,West Virginia,1
+2025,56,WY,Wyoming,0
+2025,37,NC,North Carolina,0
+2025,05,AR,Arkansas,52
+2025,49,UT,Utah,0
+2025,48,TX,Texas,94
+2025,13,GA,Georgia,0
+2025,51,VA,Virginia,0
+2025,17,IL,Illinois,2
+2025,45,SC,South Carolina,0
+2025,01,AL,Alabama,6
+2025,19,IA,Iowa,0
+2025,29,MO,Missouri,17
+2025,38,ND,North Dakota,0
+2025,10,DE,Delaware,0
+2025,06,CA,California,0
+2025,47,TN,Tennessee,61
+2025,33,NH,New Hampshire,0
+2025,41,OR,Oregon,0
+2025,50,VT,Vermont,0
+2025,35,NM,New Mexico,0
+2025,22,LA,Louisiana,1
+2025,42,PA,Pennsylvania,0
+2025,46,SD,South Dakota,0
+2025,16,ID,Idaho,0
+2025,25,MA,Massachusetts,0
+2025,36,NY,New York,0
+2025,44,RI,Rhode Island,0
+2025,23,ME,Maine,0
+2025,40,OK,Oklahoma,4
+2025,53,WA,Washington,0
+2025,32,NV,Nevada,0
+2025,27,MN,Minnesota,0
+2025,04,AZ,Arizona,0
+2025,24,MD,Maryland,0
+2025,20,KS,Kansas,0
+2025,34,NJ,New Jersey,0
+2025,39,OH,Ohio,16
+2025,18,IN,Indiana,22
+2025,09,CT,Connecticut,0
+2025,55,WI,Wisconsin,0
+2025,12,FL,Florida,0
+2025,26,MI,Michigan,2
+2025,30,MT,Montana,0
+2026,21,KY,Kentucky,1
+2026,28,MS,Mississippi,1
+2026,31,NE,Nebraska,0
+2026,08,CO,Colorado,0
+2026,54,WV,West Virginia,0
+2026,56,WY,Wyoming,0
+2026,37,NC,North Carolina,0
+2026,05,AR,Arkansas,1
+2026,49,UT,Utah,0
+2026,48,TX,Texas,311
+2026,13,GA,Georgia,1
+2026,51,VA,Virginia,0
+2026,17,IL,Illinois,0
+2026,45,SC,South Carolina,0
+2026,01,AL,Alabama,0
+2026,19,IA,Iowa,1
+2026,29,MO,Missouri,1
+2026,38,ND,North Dakota,0
+2026,10,DE,Delaware,0
+2026,06,CA,California,6
+2026,47,TN,Tennessee,3
+2026,33,NH,New Hampshire,0
+2026,41,OR,Oregon,0
+2026,50,VT,Vermont,0
+2026,35,NM,New Mexico,0
+2026,22,LA,Louisiana,0
+2026,42,PA,Pennsylvania,0
+2026,46,SD,South Dakota,0
+2026,16,ID,Idaho,0
+2026,25,MA,Massachusetts,0
+2026,36,NY,New York,3
+2026,44,RI,Rhode Island,0
+2026,23,ME,Maine,0
+2026,40,OK,Oklahoma,0
+2026,53,WA,Washington,1
+2026,32,NV,Nevada,0
+2026,27,MN,Minnesota,0
+2026,04,AZ,Arizona,0
+2026,24,MD,Maryland,0
+2026,20,KS,Kansas,0
+2026,34,NJ,New Jersey,0
+2026,39,OH,Ohio,0
+2026,18,IN,Indiana,0
+2026,09,CT,Connecticut,0
+2026,55,WI,Wisconsin,0
+2026,12,FL,Florida,1
+2026,26,MI,Michigan,0
+2026,30,MT,Montana,0

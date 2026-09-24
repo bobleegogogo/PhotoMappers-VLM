@@ -1,0 +1,49 @@
+STATEFP,STUSPS,NAME,obs_count
+21,KY,Kentucky,232
+28,MS,Mississippi,272
+31,NE,Nebraska,5
+08,CO,Colorado,0
+54,WV,West Virginia,12
+56,WY,Wyoming,0
+37,NC,North Carolina,1032
+05,AR,Arkansas,245
+49,UT,Utah,0
+48,TX,Texas,1319
+13,GA,Georgia,336
+51,VA,Virginia,195
+17,IL,Illinois,22
+45,SC,South Carolina,461
+01,AL,Alabama,349
+19,IA,Iowa,14
+29,MO,Missouri,27
+38,ND,North Dakota,0
+10,DE,Delaware,22
+06,CA,California,541
+47,TN,Tennessee,327
+33,NH,New Hampshire,3
+41,OR,Oregon,4
+50,VT,Vermont,1
+35,NM,New Mexico,0
+22,LA,Louisiana,1245
+42,PA,Pennsylvania,130
+46,SD,South Dakota,0
+16,ID,Idaho,0
+25,MA,Massachusetts,44
+36,NY,New York,109
+44,RI,Rhode Island,49
+23,ME,Maine,13
+40,OK,Oklahoma,72
+53,WA,Washington,4
+32,NV,Nevada,14
+27,MN,Minnesota,0
+04,AZ,Arizona,1
+24,MD,Maryland,64
+20,KS,Kansas,0
+34,NJ,New Jersey,94
+39,OH,Ohio,57
+18,IN,Indiana,52
+09,CT,Connecticut,74
+55,WI,Wisconsin,2
+12,FL,Florida,1740
+26,MI,Michigan,48
+30,MT,Montana,0

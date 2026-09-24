@@ -1,0 +1,541 @@
+Sheet,Lifeline,Indicator_No,Indicator,Geographic_Cue,Reasoning_Evidence,Model,agreement_rate,kappa_w,Lifeline_In_Main8
+Communications,Communications,1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.5,0.2,True
+Communications,Communications,2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.25,0.1,True
+Communications,Communications,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,0.5,0.2,True
+Communications,Communications,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,0.5,0.2,True
+Communications,Communications,5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,0.5,0.2,True
+Communications,Communications,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.25,0.1,True
+Communications,Communications,7,Road type and width,Road and transport,Appearance,InternVL3-8B,0.0,0.125,True
+Communications,Communications,8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.25,-0.125,True
+Communications,Communications,9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.25,0.1,True
+Communications,Communications,10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,0.5,0.0,True
+Communications,Communications,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.25,0.1,True
+Communications,Communications,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.0,0.0,True
+Communications,Communications,13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.5,0.2,True
+Communications,Communications,14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.5,0.2,True
+Communications,Communications,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.25,-0.0909090909090908,True
+Communications,Communications,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.5,0.0,True
+Communications,Communications,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.0,0.125,True
+Communications,Communications,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,1.0,,True
+Communications,Communications,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,0.5,0.0,True
+Communications,Communications,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.5,0.375,True
+Communications,Communications,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,0.5,-0.0666666666666667,True
+Communications,Communications,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.25,-0.125,True
+Communications,Communications,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,0.5,0.0,True
+Communications,Communications,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.25,0.1,True
+Communications,Communications,25,Scene functional type,Global scene,Appearance,InternVL3-8B,0.5,0.375,True
+Communications,Communications,26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.5,0.555555555555556,True
+Communications,Communications,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,0.5,0.2,True
+Communications,Communications,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,0.75,0.5,True
+Communications,Communications,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,0.5,0.285714285714286,True
+Communications,Communications,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,0.25,0.0,True
+Communications,Communications,1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,0.75,0.75,True
+Communications,Communications,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,0.5,0.555555555555556,True
+Communications,Communications,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,0.75,0.75,True
+Communications,Communications,7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,0.75,0.5,True
+Communications,Communications,8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,0.5,0.0,True
+Communications,Communications,9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,0.75,0.5,True
+Communications,Communications,10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,0.75,0.111111111111111,True
+Communications,Communications,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,0.5,0.428571428571429,True
+Communications,Communications,13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.5,0.2,True
+Communications,Communications,14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.75,-0.6,True
+Communications,Communications,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.5,-0.333333333333333,True
+Communications,Communications,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.75,0.5,True
+Communications,Communications,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.5,0.0,True
+Communications,Communications,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.75,0.0,True
+Communications,Communications,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.5,0.636363636363636,True
+Communications,Communications,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.75,0.8,True
+Communications,Communications,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,0.75,0.833333333333333,True
+Communications,Communications,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,0.75,0.833333333333333,True
+Communications,Communications,26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,0.25,0.0769230769230769,True
+Communications,Communications,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,1.0,1.0,True
+Communications,Communications,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,0.75,0.75,True
+Communications,Communications,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,0.25,0.0,True
+Energy,Energy,1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.45,0.254281378712335,True
+Energy,Energy,2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.5,0.273081291578776,True
+Energy,Energy,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,0.4875,0.306583560576548,True
+Energy,Energy,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,0.4625,0.280205655526992,True
+Energy,Energy,5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,0.45,0.253731343283582,True
+Energy,Energy,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.375,0.203488372093023,True
+Energy,Energy,7,Road type and width,Road and transport,Appearance,InternVL3-8B,0.5,0.26905132192846,True
+Energy,Energy,8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.525,0.289617486338798,True
+Energy,Energy,9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.5125,0.286926994906621,True
+Energy,Energy,10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,0.5875,0.351234456658857,True
+Energy,Energy,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.35,0.156268568033274,True
+Energy,Energy,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.3625,0.200609059763989,True
+Energy,Energy,13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.475,0.180977542932629,True
+Energy,Energy,14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.4625,0.296385542168675,True
+Energy,Energy,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.5,0.257842387146136,True
+Energy,Energy,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.4,0.230769230769231,True
+Energy,Energy,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.4125,0.204460966542751,True
+Energy,Energy,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,0.5625,-0.00597609561752988,True
+Energy,Energy,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,0.5125,0.233022636484687,True
+Energy,Energy,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.4125,0.254611142802814,True
+Energy,Energy,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,0.5,0.306138009912314,True
+Energy,Energy,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.4875,0.345357381429526,True
+Energy,Energy,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,0.55,0.0147368421052632,True
+Energy,Energy,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.425,0.143868683617638,True
+Energy,Energy,25,Scene functional type,Global scene,Appearance,InternVL3-8B,0.6125,0.488,True
+Energy,Energy,26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.525,0.222614840989399,True
+Energy,Energy,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,0.6625,0.524137931034483,True
+Energy,Energy,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,0.775,0.619492656875835,True
+Energy,Energy,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,0.5875,0.346886505522651,True
+Energy,Energy,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,0.45,0.282758620689655,True
+Energy,Energy,1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,0.6,0.689352135704067,True
+Energy,Energy,2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,0.7625,0.810246679316888,True
+Energy,Energy,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,0.625,0.678222562727447,True
+Energy,Energy,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,0.8125,0.841389728096677,True
+Energy,Energy,5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,0.7,0.649805447470817,True
+Energy,Energy,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,0.7,0.638888888888889,True
+Energy,Energy,7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,0.6875,0.74025974025974,True
+Energy,Energy,8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,0.7125,0.774844720496894,True
+Energy,Energy,9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,0.7,0.79529946929492,True
+Energy,Energy,10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,0.8,0.796991118361428,True
+Energy,Energy,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,0.6375,0.636040834442965,True
+Energy,Energy,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,0.5875,0.598034836980795,True
+Energy,Energy,13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.6375,0.617058311575283,True
+Energy,Energy,14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.6125,0.657724329324699,True
+Energy,Energy,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.6875,0.698511400037686,True
+Energy,Energy,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.55,0.524647887323944,True
+Energy,Energy,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.65,0.581993569131833,True
+Energy,Energy,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.6125,0.308176100628931,True
+Energy,Energy,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.5875,0.445727482678984,True
+Energy,Energy,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,0.5375,0.595515497911629,True
+Energy,Energy,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.65,0.659574468085106,True
+Energy,Energy,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,0.6875,0.697885196374622,True
+Energy,Energy,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,0.625,0.336902089449145,True
+Energy,Energy,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,0.65,0.539042320683489,True
+Energy,Energy,25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,0.6875,0.655172413793103,True
+Energy,Energy,26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,0.6375,0.521235521235521,True
+Energy,Energy,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,0.8125,0.808510638297872,True
+Energy,Energy,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,0.8625,0.808896210873147,True
+Energy,Energy,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,0.7375,0.649965682910089,True
+Energy,Energy,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,0.5375,0.444444444444444,True
+Food_Water_Shelter,"Food, Hydration, Shelter",1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.587392550143267,0.445226715911297,True
+Food_Water_Shelter,"Food, Hydration, Shelter",2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.547277936962751,0.376733757201592,True
+Food_Water_Shelter,"Food, Hydration, Shelter",3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,0.578796561604584,0.379018059375978,True
+Food_Water_Shelter,"Food, Hydration, Shelter",4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,0.555873925501433,0.367640900402602,True
+Food_Water_Shelter,"Food, Hydration, Shelter",5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,0.504297994269341,0.317137033360702,True
+Food_Water_Shelter,"Food, Hydration, Shelter",6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.389684813753582,0.228489075076029,True
+Food_Water_Shelter,"Food, Hydration, Shelter",7,Road type and width,Road and transport,Appearance,InternVL3-8B,0.484240687679083,0.343549096489833,True
+Food_Water_Shelter,"Food, Hydration, Shelter",8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.464183381088825,0.34332402504497,True
+Food_Water_Shelter,"Food, Hydration, Shelter",9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.498567335243553,0.298197719871069,True
+Food_Water_Shelter,"Food, Hydration, Shelter",10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,0.564469914040115,0.379170093324275,True
+Food_Water_Shelter,"Food, Hydration, Shelter",11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.372492836676218,0.1803823268152,True
+Food_Water_Shelter,"Food, Hydration, Shelter",12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.344827586206897,0.201634192331867,True
+Food_Water_Shelter,"Food, Hydration, Shelter",13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.561604584527221,0.464019306713471,True
+Food_Water_Shelter,"Food, Hydration, Shelter",14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.512893982808023,0.38259570339858,True
+Food_Water_Shelter,"Food, Hydration, Shelter",15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.598853868194842,0.463432914700823,True
+Food_Water_Shelter,"Food, Hydration, Shelter",16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.446991404011461,0.301388715125735,True
+Food_Water_Shelter,"Food, Hydration, Shelter",17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.492836676217765,0.332010956380749,True
+Food_Water_Shelter,"Food, Hydration, Shelter",18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,0.504297994269341,0.136259983356569,True
+Food_Water_Shelter,"Food, Hydration, Shelter",19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,0.510028653295129,0.423807165263332,True
+Food_Water_Shelter,"Food, Hydration, Shelter",20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.432664756446991,0.241503844936114,True
+Food_Water_Shelter,"Food, Hydration, Shelter",21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,0.570200573065903,0.453340859380512,True
+Food_Water_Shelter,"Food, Hydration, Shelter",22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.501432664756447,0.335714378202002,True
+Food_Water_Shelter,"Food, Hydration, Shelter",23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,0.613180515759312,0.150152193375112,True
+Food_Water_Shelter,"Food, Hydration, Shelter",24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.504297994269341,0.180152792309059,True
+Food_Water_Shelter,"Food, Hydration, Shelter",25,Scene functional type,Global scene,Appearance,InternVL3-8B,0.616045845272206,0.42554404170536,True
+Food_Water_Shelter,"Food, Hydration, Shelter",26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.561604584527221,0.359657128877765,True
+Food_Water_Shelter,"Food, Hydration, Shelter",27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,0.687679083094556,0.513189490783247,True
+Food_Water_Shelter,"Food, Hydration, Shelter",28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,0.759312320916905,0.585302246095923,True
+Food_Water_Shelter,"Food, Hydration, Shelter",29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,0.59025787965616,0.343042483334992,True
+Food_Water_Shelter,"Food, Hydration, Shelter",30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,0.492836676217765,0.317969348321728,True
+Food_Water_Shelter,"Food, Hydration, Shelter",1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,0.67621776504298,0.684289535321529,True
+Food_Water_Shelter,"Food, Hydration, Shelter",2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,0.776504297994269,0.81352963875449,True
+Food_Water_Shelter,"Food, Hydration, Shelter",3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,0.742120343839542,0.763916683108318,True
+Food_Water_Shelter,"Food, Hydration, Shelter",4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,0.802292263610315,0.83539069162494,True
+Food_Water_Shelter,"Food, Hydration, Shelter",5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,0.750716332378224,0.770203239541723,True
+Food_Water_Shelter,"Food, Hydration, Shelter",6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,0.702005730659026,0.693835234069702,True
+Food_Water_Shelter,"Food, Hydration, Shelter",7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,0.693409742120344,0.761274153036264,True
+Food_Water_Shelter,"Food, Hydration, Shelter",8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,0.653295128939828,0.692202110821024,True
+Food_Water_Shelter,"Food, Hydration, Shelter",9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,0.779369627507163,0.807438060374556,True
+Food_Water_Shelter,"Food, Hydration, Shelter",10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,0.787965616045845,0.785283219131439,True
+Food_Water_Shelter,"Food, Hydration, Shelter",11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,0.693409742120344,0.632263722455284,True
+Food_Water_Shelter,"Food, Hydration, Shelter",12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,0.451149425287356,0.337585501023516,True
+Food_Water_Shelter,"Food, Hydration, Shelter",13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.624641833810888,0.631039898313992,True
+Food_Water_Shelter,"Food, Hydration, Shelter",14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.69054441260745,0.71122976953543,True
+Food_Water_Shelter,"Food, Hydration, Shelter",15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.722063037249284,0.739377565532561,True
+Food_Water_Shelter,"Food, Hydration, Shelter",16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.555873925501433,0.55032827660385,True
+Food_Water_Shelter,"Food, Hydration, Shelter",17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.653295128939828,0.685346513143602,True
+Food_Water_Shelter,"Food, Hydration, Shelter",18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.567335243553009,0.35674522608834,True
+Food_Water_Shelter,"Food, Hydration, Shelter",19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.575931232091691,0.607176807469572,True
+Food_Water_Shelter,"Food, Hydration, Shelter",20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,0.555873925501433,0.432865309748998,True
+Food_Water_Shelter,"Food, Hydration, Shelter",21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.722063037249284,0.759095063096696,True
+Food_Water_Shelter,"Food, Hydration, Shelter",22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,0.730659025787966,0.760881831371917,True
+Food_Water_Shelter,"Food, Hydration, Shelter",23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,0.492836676217765,0.161585796688121,True
+Food_Water_Shelter,"Food, Hydration, Shelter",24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,0.524355300859599,0.309049924785903,True
+Food_Water_Shelter,"Food, Hydration, Shelter",25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,0.722063037249284,0.749301044428252,True
+Food_Water_Shelter,"Food, Hydration, Shelter",26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,0.681948424068768,0.673736912082433,True
+Food_Water_Shelter,"Food, Hydration, Shelter",27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,0.816618911174785,0.819135944337042,True
+Food_Water_Shelter,"Food, Hydration, Shelter",28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,0.893982808022923,0.871057058284035,True
+Food_Water_Shelter,"Food, Hydration, Shelter",29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,0.710601719197708,0.575941676792224,True
+Food_Water_Shelter,"Food, Hydration, Shelter",30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,0.59025787965616,0.485647637545507,True
+Hazmat,Hazardous Materials,1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.5,0.0,True
+Hazmat,Hazardous Materials,2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,7,Road type and width,Road and transport,Appearance,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.5,0.0,True
+Hazmat,Hazardous Materials,13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.5,0.0,True
+Hazmat,Hazardous Materials,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,0.5,0.0,True
+Hazmat,Hazardous Materials,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,0.0,0.0,True
+Hazmat,Hazardous Materials,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.5,0.0,True
+Hazmat,Hazardous Materials,25,Scene functional type,Global scene,Appearance,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,1.0,1.0,True
+Hazmat,Hazardous Materials,1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,1.0,,True
+Hazmat,Hazardous Materials,2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,0.0,0.0,True
+Hazmat,Hazardous Materials,7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,1.0,1.0,True
+Hazmat,Hazardous Materials,8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,0.0,0.0,True
+Hazmat,Hazardous Materials,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,0.0,-0.666666666666667,True
+Hazmat,Hazardous Materials,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,0.0,-1.0,True
+Hazmat,Hazardous Materials,25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,1.0,1.0,True
+Hazmat,Hazardous Materials,26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,1.0,1.0,True
+Hazmat,Hazardous Materials,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,0.5,0.666666666666667,True
+Hazmat,Hazardous Materials,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,1.0,1.0,True
+Hazmat,Hazardous Materials,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,0.5,0.0,True
+Hazmat,Hazardous Materials,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,1.0,1.0,True
+Health_Medical,Health and Medical,1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.533333333333333,0.421364985163205,True
+Health_Medical,Health and Medical,2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.6,0.482758620689655,True
+Health_Medical,Health and Medical,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,0.666666666666667,0.580152671755725,True
+Health_Medical,Health and Medical,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,0.533333333333333,0.387755102040816,True
+Health_Medical,Health and Medical,5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,0.666666666666667,0.492753623188406,True
+Health_Medical,Health and Medical,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.466666666666667,0.289693593314763,True
+Health_Medical,Health and Medical,7,Road type and width,Road and transport,Appearance,InternVL3-8B,0.466666666666667,0.33420365535248,True
+Health_Medical,Health and Medical,8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.466666666666667,0.360902255639098,True
+Health_Medical,Health and Medical,9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.533333333333333,0.428571428571429,True
+Health_Medical,Health and Medical,10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,0.533333333333333,0.408866995073892,True
+Health_Medical,Health and Medical,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.533333333333333,0.219178082191781,True
+Health_Medical,Health and Medical,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.4,-0.0396039603960396,True
+Health_Medical,Health and Medical,13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.733333333333333,0.715447154471545,True
+Health_Medical,Health and Medical,14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.533333333333333,0.462809917355372,True
+Health_Medical,Health and Medical,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.733333333333333,0.530120481927711,True
+Health_Medical,Health and Medical,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.466666666666667,0.273504273504273,True
+Health_Medical,Health and Medical,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.333333333333333,0.296296296296296,True
+Health_Medical,Health and Medical,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,0.4,-0.0344827586206897,True
+Health_Medical,Health and Medical,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,0.666666666666667,0.573643410852713,True
+Health_Medical,Health and Medical,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.4,0.311926605504587,True
+Health_Medical,Health and Medical,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,0.6,0.460431654676259,True
+Health_Medical,Health and Medical,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.466666666666667,0.256559766763848,True
+Health_Medical,Health and Medical,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,0.466666666666667,0.180522565320665,True
+Health_Medical,Health and Medical,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.533333333333333,0.128440366972477,True
+Health_Medical,Health and Medical,25,Scene functional type,Global scene,Appearance,InternVL3-8B,0.733333333333333,0.609375,True
+Health_Medical,Health and Medical,26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.6,0.615384615384615,True
+Health_Medical,Health and Medical,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,0.8,0.689655172413793,True
+Health_Medical,Health and Medical,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,0.8,0.786729857819905,True
+Health_Medical,Health and Medical,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,0.866666666666667,0.923076923076923,True
+Health_Medical,Health and Medical,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,0.6,0.558823529411765,True
+Health_Medical,Health and Medical,1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,0.666666666666667,0.785100286532951,True
+Health_Medical,Health and Medical,2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,0.666666666666667,0.742268041237113,True
+Health_Medical,Health and Medical,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,0.8,0.888888888888889,True
+Health_Medical,Health and Medical,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,0.733333333333333,0.825581395348837,True
+Health_Medical,Health and Medical,5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,0.866666666666667,0.912280701754386,True
+Health_Medical,Health and Medical,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,0.733333333333333,0.741379310344828,True
+Health_Medical,Health and Medical,7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,0.6,0.748603351955307,True
+Health_Medical,Health and Medical,8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,0.533333333333333,0.542682926829268,True
+Health_Medical,Health and Medical,9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,0.733333333333333,0.833333333333333,True
+Health_Medical,Health and Medical,10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,0.733333333333333,0.842931937172775,True
+Health_Medical,Health and Medical,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,0.8,0.571428571428571,True
+Health_Medical,Health and Medical,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,0.666666666666667,0.0677966101694916,True
+Health_Medical,Health and Medical,13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.933333333333333,0.958677685950413,True
+Health_Medical,Health and Medical,14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.733333333333333,0.832402234636872,True
+Health_Medical,Health and Medical,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.8,0.785714285714286,True
+Health_Medical,Health and Medical,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.533333333333333,0.511278195488722,True
+Health_Medical,Health and Medical,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.466666666666667,0.636363636363636,True
+Health_Medical,Health and Medical,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.466666666666667,0.19953596287703,True
+Health_Medical,Health and Medical,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.733333333333333,0.824561403508772,True
+Health_Medical,Health and Medical,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,0.533333333333333,0.623655913978495,True
+Health_Medical,Health and Medical,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.733333333333333,0.740740740740741,True
+Health_Medical,Health and Medical,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,0.666666666666667,0.71042471042471,True
+Health_Medical,Health and Medical,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,0.4,0.0740740740740741,True
+Health_Medical,Health and Medical,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,0.666666666666667,0.285714285714286,True
+Health_Medical,Health and Medical,25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,0.933333333333333,0.96,True
+Health_Medical,Health and Medical,26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,0.666666666666667,0.8,True
+Health_Medical,Health and Medical,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,0.866666666666667,0.827586206896552,True
+Health_Medical,Health and Medical,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,0.866666666666667,0.92822966507177,True
+Health_Medical,Health and Medical,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,0.866666666666667,0.923076923076923,True
+Health_Medical,Health and Medical,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,0.6,0.558823529411765,True
+Other,Other,1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.516666666666667,0.373134328358209,False
+Other,Other,2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.527777777777778,0.309079792112504,False
+Other,Other,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,0.516666666666667,0.261726873603944,False
+Other,Other,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,0.488888888888889,0.279628993473033,False
+Other,Other,5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,0.527777777777778,0.285209003215434,False
+Other,Other,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.411111111111111,0.176847004072135,False
+Other,Other,7,Road type and width,Road and transport,Appearance,InternVL3-8B,0.472222222222222,0.270642201834862,False
+Other,Other,8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.35,0.171199875660553,False
+Other,Other,9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.477777777777778,0.308084744561752,False
+Other,Other,10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,0.522222222222222,0.261121157323689,False
+Other,Other,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.361111111111111,0.126536369131574,False
+Other,Other,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.294444444444444,0.0625000000000001,False
+Other,Other,13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.45,0.100984635874994,False
+Other,Other,14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.5,0.230867346938775,False
+Other,Other,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.477777777777778,0.206697459584296,False
+Other,Other,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.422222222222222,0.0954583683767872,False
+Other,Other,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.4,0.106308411214953,False
+Other,Other,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,0.455555555555556,0.0107438016528927,False
+Other,Other,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,0.444444444444444,0.253563390847712,False
+Other,Other,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.405555555555556,0.207266721717589,False
+Other,Other,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,0.522222222222222,0.288575720723943,False
+Other,Other,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.483333333333333,0.236092173438778,False
+Other,Other,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,0.483333333333333,0.0528294007099602,False
+Other,Other,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.422222222222222,0.0633333333333334,False
+Other,Other,25,Scene functional type,Global scene,Appearance,InternVL3-8B,0.555555555555556,0.292914319596798,False
+Other,Other,26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.527777777777778,0.223378982671884,False
+Other,Other,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,0.627777777777778,0.427792915531335,False
+Other,Other,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,0.722222222222222,0.545933518536258,False
+Other,Other,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,0.55,0.294933365349982,False
+Other,Other,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,0.472222222222222,0.22552783109405,False
+Other,Other,1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,0.655555555555556,0.721448467966574,False
+Other,Other,2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,0.766666666666667,0.805636540330418,False
+Other,Other,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,0.716666666666667,0.742054014330333,False
+Other,Other,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,0.727777777777778,0.783405172413793,False
+Other,Other,5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,0.755555555555556,0.726247436773753,False
+Other,Other,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,0.688888888888889,0.660956459671663,False
+Other,Other,7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,0.705555555555556,0.752066115702479,False
+Other,Other,8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,0.666666666666667,0.686886708296164,False
+Other,Other,9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,0.772222222222222,0.834778532927115,False
+Other,Other,10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,0.761111111111111,0.823453884014552,False
+Other,Other,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,0.622222222222222,0.566606473121267,False
+Other,Other,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,0.461111111111111,0.379888268156425,False
+Other,Other,13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.688888888888889,0.592419394536057,False
+Other,Other,14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.655555555555556,0.701986754966887,False
+Other,Other,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.7,0.712328767123288,False
+Other,Other,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.594444444444444,0.602487135506003,False
+Other,Other,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.633333333333333,0.655555555555556,False
+Other,Other,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.527777777777778,0.223597678916828,False
+Other,Other,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.611111111111111,0.603235747303544,False
+Other,Other,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,0.605555555555556,0.594331036276167,False
+Other,Other,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.744444444444444,0.792207792207792,False
+Other,Other,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,0.744444444444444,0.789196310935441,False
+Other,Other,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,0.477777777777778,0.22978878368536,False
+Other,Other,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,0.55,0.413998914812805,False
+Other,Other,25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,0.727777777777778,0.734244802200469,False
+Other,Other,26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,0.644444444444444,0.585270075332585,False
+Other,Other,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,0.816666666666667,0.816775244299674,False
+Other,Other,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,0.888888888888889,0.873672121734137,False
+Other,Other,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,0.722222222222222,0.641827912721284,False
+Other,Other,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,0.561111111111111,0.439159292035398,False
+Safety_Security,Safety and Security,1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.593984962406015,0.372253354310665,True
+Safety_Security,Safety and Security,2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.601503759398496,0.488276014317927,True
+Safety_Security,Safety and Security,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,0.620300751879699,0.405431007262393,True
+Safety_Security,Safety and Security,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,0.582706766917293,0.448702570565281,True
+Safety_Security,Safety and Security,5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,0.547169811320755,0.378919854267211,True
+Safety_Security,Safety and Security,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.449056603773585,0.261923659715708,True
+Safety_Security,Safety and Security,7,Road type and width,Road and transport,Appearance,InternVL3-8B,0.537593984962406,0.393330886593614,True
+Safety_Security,Safety and Security,8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.458646616541353,0.346023216910833,True
+Safety_Security,Safety and Security,9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.552631578947368,0.414949970570924,True
+Safety_Security,Safety and Security,10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,0.616541353383459,0.3976736425609,True
+Safety_Security,Safety and Security,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.383458646616541,0.215602836879433,True
+Safety_Security,Safety and Security,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.338345864661654,0.238502435215823,True
+Safety_Security,Safety and Security,13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.578947368421053,0.392408846383742,True
+Safety_Security,Safety and Security,14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.507518796992481,0.352252269324793,True
+Safety_Security,Safety and Security,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.578947368421053,0.414565826330532,True
+Safety_Security,Safety and Security,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.447368421052632,0.35831960461285,True
+Safety_Security,Safety and Security,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.481203007518797,0.349527225301598,True
+Safety_Security,Safety and Security,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,0.469924812030075,0.087061854678998,True
+Safety_Security,Safety and Security,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,0.518796992481203,0.346801807971511,True
+Safety_Security,Safety and Security,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.43984962406015,0.296448753362581,True
+Safety_Security,Safety and Security,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,0.582706766917293,0.407323688969259,True
+Safety_Security,Safety and Security,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.522556390977444,0.369410096873277,True
+Safety_Security,Safety and Security,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,0.56015037593985,0.181402528380781,True
+Safety_Security,Safety and Security,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.484962406015038,0.265949282343528,True
+Safety_Security,Safety and Security,25,Scene functional type,Global scene,Appearance,InternVL3-8B,0.676691729323308,0.46002296879802,True
+Safety_Security,Safety and Security,26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.593984962406015,0.439267914045265,True
+Safety_Security,Safety and Security,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,0.729323308270677,0.567148652865911,True
+Safety_Security,Safety and Security,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,0.774436090225564,0.66857024192711,True
+Safety_Security,Safety and Security,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,0.657894736842105,0.484279823482601,True
+Safety_Security,Safety and Security,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,0.518796992481203,0.412457356663365,True
+Safety_Security,Safety and Security,1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,0.740601503759398,0.766452044485325,True
+Safety_Security,Safety and Security,2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,0.778195488721805,0.8145018731451,True
+Safety_Security,Safety and Security,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,0.755639097744361,0.760459667522035,True
+Safety_Security,Safety and Security,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,0.755639097744361,0.773662027833002,True
+Safety_Security,Safety and Security,5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,0.724528301886792,0.739839839027675,True
+Safety_Security,Safety and Security,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,0.709433962264151,0.691445620929302,True
+Safety_Security,Safety and Security,7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,0.642857142857143,0.713926796204248,True
+Safety_Security,Safety and Security,8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,0.657894736842105,0.683954954024176,True
+Safety_Security,Safety and Security,9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,0.74812030075188,0.78368907295317,True
+Safety_Security,Safety and Security,10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,0.819548872180451,0.82482438534872,True
+Safety_Security,Safety and Security,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,0.661654135338346,0.627435168286575,True
+Safety_Security,Safety and Security,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,0.466165413533835,0.411052369978763,True
+Safety_Security,Safety and Security,13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.699248120300752,0.706936734607399,True
+Safety_Security,Safety and Security,14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.62781954887218,0.661883509406248,True
+Safety_Security,Safety and Security,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.729323308270677,0.76969696969697,True
+Safety_Security,Safety and Security,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.515037593984962,0.530452397029034,True
+Safety_Security,Safety and Security,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.620300751879699,0.674842066146414,True
+Safety_Security,Safety and Security,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.507518796992481,0.2419138039576,True
+Safety_Security,Safety and Security,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.657894736842105,0.642509245973202,True
+Safety_Security,Safety and Security,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,0.556390977443609,0.495449631449631,True
+Safety_Security,Safety and Security,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.75187969924812,0.765852704332801,True
+Safety_Security,Safety and Security,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,0.721804511278195,0.7648458883732,True
+Safety_Security,Safety and Security,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,0.484962406015038,0.175779350162381,True
+Safety_Security,Safety and Security,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,0.56015037593985,0.37879821569142,True
+Safety_Security,Safety and Security,25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,0.770676691729323,0.740335806325654,True
+Safety_Security,Safety and Security,26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,0.699248120300752,0.679834725590587,True
+Safety_Security,Safety and Security,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,0.845864661654135,0.827290984039742,True
+Safety_Security,Safety and Security,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,0.87593984962406,0.876238866815355,True
+Safety_Security,Safety and Security,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,0.740601503759398,0.646472477572267,True
+Safety_Security,Safety and Security,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,0.518796992481203,0.4014149869534,True
+Transportation,Transportation,1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.570873786407767,0.238813086340116,True
+Transportation,Transportation,2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.497087378640777,0.221910530422272,True
+Transportation,Transportation,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,0.580582524271845,0.30837457325292,True
+Transportation,Transportation,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,0.500970873786408,0.277884829326247,True
+Transportation,Transportation,5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,0.458252427184466,0.190476970183223,True
+Transportation,Transportation,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.340466926070039,0.123465211459754,True
+Transportation,Transportation,7,Road type and width,Road and transport,Appearance,InternVL3-8B,0.625242718446602,0.244028960419201,True
+Transportation,Transportation,8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.438834951456311,0.185279153381725,True
+Transportation,Transportation,9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.579766536964981,0.306678140969546,True
+Transportation,Transportation,10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,0.625242718446602,0.305338372251255,True
+Transportation,Transportation,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.423300970873786,0.228895964202736,True
+Transportation,Transportation,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.394174757281553,0.240818160557703,True
+Transportation,Transportation,13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.601941747572815,0.251489672997038,True
+Transportation,Transportation,14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.454368932038835,0.294864688078582,True
+Transportation,Transportation,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.580582524271845,0.255168077134697,True
+Transportation,Transportation,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.413592233009709,0.24493771466653,True
+Transportation,Transportation,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.499029126213592,0.170112697413228,True
+Transportation,Transportation,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,0.479611650485437,0.137348672791044,True
+Transportation,Transportation,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,0.510679611650485,0.215145813734713,True
+Transportation,Transportation,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.398058252427184,0.205019423430791,True
+Transportation,Transportation,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,0.563106796116505,0.337818643941093,True
+Transportation,Transportation,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.47378640776699,0.263259055125021,True
+Transportation,Transportation,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,0.61747572815534,0.126583992785273,True
+Transportation,Transportation,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.463035019455253,0.138974598422089,True
+Transportation,Transportation,25,Scene functional type,Global scene,Appearance,InternVL3-8B,0.631067961165049,0.284910023630158,True
+Transportation,Transportation,26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.584466019417476,0.28371082296365,True
+Transportation,Transportation,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,0.638834951456311,0.370367381523998,True
+Transportation,Transportation,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,0.70873786407767,0.484955853358859,True
+Transportation,Transportation,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,0.543689320388349,0.27616370462153,True
+Transportation,Transportation,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,0.528155339805825,0.373280195378169,True
+Transportation,Transportation,1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,0.720388349514563,0.738251469751565,True
+Transportation,Transportation,2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,0.714563106796116,0.741810906277256,True
+Transportation,Transportation,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,0.733980582524272,0.753149329647675,True
+Transportation,Transportation,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,0.72621359223301,0.730622973685779,True
+Transportation,Transportation,5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,0.702912621359223,0.702540092327215,True
+Transportation,Transportation,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,0.583657587548638,0.569879546472432,True
+Transportation,Transportation,7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,0.718446601941748,0.646946212028548,True
+Transportation,Transportation,8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,0.636893203883495,0.660837969796753,True
+Transportation,Transportation,9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,0.762645914396887,0.76414439511602,True
+Transportation,Transportation,10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,0.801941747572816,0.771143988293489,True
+Transportation,Transportation,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,0.658252427184466,0.714644801206152,True
+Transportation,Transportation,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,0.555339805825243,0.552254767162479,True
+Transportation,Transportation,13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.699029126213592,0.658722914765126,True
+Transportation,Transportation,14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.592233009708738,0.623051317069887,True
+Transportation,Transportation,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.747572815533981,0.737887458569708,True
+Transportation,Transportation,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.545631067961165,0.590991454089828,True
+Transportation,Transportation,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.67378640776699,0.68534000477729,True
+Transportation,Transportation,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.543689320388349,0.383035073389273,True
+Transportation,Transportation,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.642718446601942,0.529860512624086,True
+Transportation,Transportation,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,0.594174757281553,0.583942394725821,True
+Transportation,Transportation,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.70873786407767,0.695317572929944,True
+Transportation,Transportation,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,0.667961165048544,0.681098461566688,True
+Transportation,Transportation,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,0.514563106796116,0.145800540350053,True
+Transportation,Transportation,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,0.560311284046693,0.383966087309323,True
+Transportation,Transportation,25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,0.749514563106796,0.658760004417346,True
+Transportation,Transportation,26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,0.761165048543689,0.686414782727164,True
+Transportation,Transportation,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,0.811650485436893,0.777869714667993,True
+Transportation,Transportation,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,0.897087378640777,0.854153010117894,True
+Transportation,Transportation,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,0.706796116504854,0.556237514140612,True
+Transportation,Transportation,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,0.629126213592233,0.568427899600939,True
+Water_Systems,Water Systems,1,Building type and scale,Building and structure,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,2,Overall building appearance,Building and structure,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,5,Recognizable building outline,Building and structure,Landmark cue,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,7,Road type and width,Road and transport,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,8,Road markings and boundary features,Road and transport,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,9,Road direction and connectivity,Road and transport,Spatial layout,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,10,Road position relative to surrounding elements,Road and transport,Spatial layout,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,13,Vegetation coverage and type,Vegetation and terrain,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,14,Ground surface characteristics,Vegetation and terrain,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,InternVL3-8B,1.0,,True
+Water_Systems,Water Systems,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,InternVL3-8B,1.0,,True
+Water_Systems,Water Systems,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,25,Scene functional type,Global scene,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,26,Spatial density and openness,Global scene,Appearance,InternVL3-8B,0.0,0.0,True
+Water_Systems,Water Systems,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,InternVL3-8B,1.0,,True
+Water_Systems,Water Systems,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,InternVL3-8B,1.0,,True
+Water_Systems,Water Systems,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,InternVL3-8B,1.0,,True
+Water_Systems,Water Systems,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,InternVL3-8B,1.0,,True
+Water_Systems,Water Systems,1,Building type and scale,Building and structure,Appearance,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,2,Overall building appearance,Building and structure,Appearance,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,3,Building position relative to nearby roads or open space,Building and structure,Spatial layout,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,4,Building position and shape correspondence in SVI--RSI,Building and structure,Spatial layout,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,5,Recognizable building outline,Building and structure,Landmark cue,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,6,Distinctive building appearance or visible name,Building and structure,Landmark cue,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,7,Road type and width,Road and transport,Appearance,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,8,Road markings and boundary features,Road and transport,Appearance,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,9,Road direction and connectivity,Road and transport,Spatial layout,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,10,Road position relative to surrounding elements,Road and transport,Spatial layout,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,11,"Distinctive intersection, bridge, or road curve",Road and transport,Landmark cue,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,12,"Traffic lights, road signs, or road markers",Road and transport,Landmark cue,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,13,Vegetation coverage and type,Vegetation and terrain,Appearance,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,14,Ground surface characteristics,Vegetation and terrain,Appearance,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,15,Vegetation position relative to roads or buildings,Vegetation and terrain,Spatial layout,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,16,"Waterbody, shoreline, or open-space position",Vegetation and terrain,Spatial layout,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,17,"Prominent trees, forest belts, or distinctive vegetation",Vegetation and terrain,Landmark cue,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,18,"Coastline, river, lake, or slope outline",Vegetation and terrain,Landmark cue,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,19,"Utility poles, streetlights, and cables",Objects and facilities,Appearance,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,20,"Road signs, fences, and guardrails",Objects and facilities,Appearance,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,21,Facility position relative to roads or buildings,Objects and facilities,Spatial layout,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,22,Local facility grouping and arrangement,Objects and facilities,Spatial layout,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,23,"Large facilities such as antennas, water towers, or pylons",Objects and facilities,Landmark cue,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,24,"Recognizable signs such as storefront signs, billboards, or gas-station signs",Objects and facilities,Landmark cue,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,25,Scene functional type,Global scene,Appearance,Qwen3.6-27B,0.0,0.0,True
+Water_Systems,Water Systems,26,Spatial density and openness,Global scene,Appearance,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,27,Overall building--road--vegetation relationship,Global scene,Spatial layout,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,28,Consistency between the VGI visible scene and the SVI--RSI overall scene,Global scene,Spatial layout,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,29,"Large building complex, community, or commercial area",Global scene,Landmark cue,Qwen3.6-27B,1.0,,True
+Water_Systems,Water Systems,30,"Coastline, river, bridge, or regional background",Global scene,Landmark cue,Qwen3.6-27B,1.0,,True

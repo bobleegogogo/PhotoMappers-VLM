@@ -1,0 +1,81 @@
+Lifeline,Model,Geographic Cue,Mean_kappa,Mean_Agreement
+Safety and Security,Qwen3.6-27B,Building and structure,0.7577268454904065,0.7440062420201446
+Safety and Security,Qwen3.6-27B,Road and transport,0.674147124465942,0.6660401002506267
+Safety and Security,Qwen3.6-27B,Vegetation and terrain,0.5976209134739442,0.6165413533834585
+Safety and Security,Qwen3.6-27B,Objects and facilities,0.5372058393304392,0.6221804511278195
+Safety and Security,Qwen3.6-27B,Global scene,0.6952646412161675,0.7418546365914785
+Safety and Security,InternVL3-8B,Building and structure,0.3925844100731975,0.5657871092826404
+Safety and Security,InternVL3-8B,Road and transport,0.33434716478858784,0.4812030075187968
+Safety and Security,InternVL3-8B,Vegetation and terrain,0.32568927110541884,0.5106516290726818
+Safety and Security,InternVL3-8B,Objects and facilities,0.31122269298348954,0.518170426065163
+Safety and Security,InternVL3-8B,Global scene,0.5052911596303787,0.6585213032581453
+"Food, Hydration, Shelter",Qwen3.6-27B,Building and structure,0.7601941704034503,0.7416427889207261
+"Food, Hydration, Shelter",Qwen3.6-27B,Road and transport,0.6693411278070137,0.6764332136701467
+"Food, Hydration, Shelter",Qwen3.6-27B,Vegetation and terrain,0.6123445415362958,0.6356255969436487
+"Food, Hydration, Shelter",Qwen3.6-27B,Objects and facilities,0.5051091221935345,0.6002865329512898
+"Food, Hydration, Shelter",Qwen3.6-27B,Global scene,0.6958033789115822,0.7359121298949379
+"Food, Hydration, Shelter",InternVL3-8B,Building and structure,0.3523742568880333,0.527220630372493
+"Food, Hydration, Shelter",InternVL3-8B,Road and transport,0.29104290897953566,0.45479695682244853
+"Food, Hydration, Shelter",InternVL3-8B,Vegetation and terrain,0.3466179299459879,0.5195797516714421
+"Food, Hydration, Shelter",InternVL3-8B,Objects and facilities,0.2974452055776885,0.5219675262655205
+"Food, Hydration, Shelter",InternVL3-8B,Global scene,0.42411745651983584,0.6179560649474688
+Health and Medical,Qwen3.6-27B,Building and structure,0.8159164373511674,0.7444444444444445
+Health and Medical,Qwen3.6-27B,Road and transport,0.6011294551481242,0.6777777777777776
+Health and Medical,Qwen3.6-27B,Vegetation and terrain,0.6539953335051598,0.6555555555555556
+Health and Medical,Qwen3.6-27B,Objects and facilities,0.543195188073513,0.6222222222222221
+Health and Medical,Qwen3.6-27B,Global scene,0.832952720742835,0.8000000000000002
+Health and Medical,InternVL3-8B,Building and structure,0.44241309935876166,0.5777777777777778
+Health and Medical,InternVL3-8B,Road and transport,0.28535307607210675,0.4888888888888889
+Health and Medical,InternVL3-8B,Vegetation and terrain,0.37394922748908455,0.5333333333333331
+Health and Medical,InternVL3-8B,Objects and facilities,0.3185873950150915,0.5222222222222223
+Health and Medical,InternVL3-8B,Global scene,0.6971741830178336,0.7333333333333334
+Energy,Qwen3.6-27B,Building and structure,0.7179842403674641,0.7000000000000001
+Energy,Qwen3.6-27B,Road and transport,0.7235784533061237,0.6875
+Energy,Qwen3.6-27B,Vegetation and terrain,0.5646852663370626,0.625
+Energy,Qwen3.6-27B,Objects and facilities,0.5457745091971625,0.6229166666666667
+Energy,Qwen3.6-27B,Global scene,0.6480374852590293,0.7125
+Energy,InternVL3-8B,Building and structure,0.261895266961876,0.45416666666666666
+Energy,InternVL3-8B,Road and transport,0.2589513146049998,0.47291666666666665
+Energy,InternVL3-8B,Vegetation and terrain,0.19407659565698201,0.46875
+Energy,InternVL3-8B,Objects and facilities,0.21628911605870704,0.48124999999999996
+Energy,InternVL3-8B,Global scene,0.4139817591853372,0.6020833333333334
+Communications,Qwen3.6-27B,Building and structure,0.8425925925925927,0.8333333333333334
+Communications,Qwen3.6-27B,Road and transport,0.4232804232804233,0.7083333333333334
+Communications,Qwen3.6-27B,Vegetation and terrain,-0.03888888888888883,0.625
+Communications,Qwen3.6-27B,Objects and facilities,0.8782828282828282,0.8333333333333334
+Communications,Qwen3.6-27B,Global scene,0.610042735042735,0.6666666666666666
+Communications,InternVL3-8B,Building and structure,0.16666666666666666,0.4166666666666667
+Communications,InternVL3-8B,Road and transport,0.03333333333333333,0.20833333333333334
+Communications,InternVL3-8B,Vegetation and terrain,0.08681818181818184,0.4583333333333333
+Communications,InternVL3-8B,Objects and facilities,0.04722222222222222,0.4166666666666667
+Communications,InternVL3-8B,Global scene,0.319378306878307,0.5
+Transportation,Qwen3.6-27B,Building and structure,0.7060423863603204,0.6969526399959703
+Transportation,Qwen3.6-27B,Road and transport,0.6849953556005736,0.6889199501341091
+Transportation,Qwen3.6-27B,Vegetation and terrain,0.6131713704435187,0.6336569579288025
+Transportation,Qwen3.6-27B,Objects and facilities,0.5033309282509858,0.6147444373087531
+Transportation,Qwen3.6-27B,Global scene,0.6836438209453246,0.7592233009708736
+Transportation,InternVL3-8B,Building and structure,0.22682086683075534,0.49137231939355036
+Transportation,InternVL3-8B,Road and transport,0.2518397919636943,0.5144271089116391
+Transportation,InternVL3-8B,Vegetation and terrain,0.2256535871801865,0.5048543689320388
+Transportation,InternVL3-8B,Objects and facilities,0.21446692123983,0.5043569692619595
+Transportation,InternVL3-8B,Global scene,0.345564663579394,0.6058252427184466
+Hazardous Materials,Qwen3.6-27B,Building and structure,0.0,0.5
+Hazardous Materials,Qwen3.6-27B,Road and transport,0.6111111111111113,0.5833333333333334
+Hazardous Materials,Qwen3.6-27B,Vegetation and terrain,0.44444444444444464,0.5
+Hazardous Materials,Qwen3.6-27B,Objects and facilities,-0.16666666666666666,0.25
+Hazardous Materials,Qwen3.6-27B,Global scene,0.7777777777777778,0.8333333333333334
+Hazardous Materials,InternVL3-8B,Building and structure,0.7222222222222223,0.75
+Hazardous Materials,InternVL3-8B,Road and transport,0.6666666666666669,0.6666666666666666
+Hazardous Materials,InternVL3-8B,Vegetation and terrain,0.44444444444444464,0.5
+Hazardous Materials,InternVL3-8B,Objects and facilities,0.5000000000000001,0.5
+Hazardous Materials,InternVL3-8B,Global scene,0.888888888888889,0.8333333333333334
+Water Systems,Qwen3.6-27B,Building and structure,0.0,0.8333333333333334
+Water Systems,Qwen3.6-27B,Road and transport,,1.0
+Water Systems,Qwen3.6-27B,Vegetation and terrain,0.0,0.3333333333333333
+Water Systems,Qwen3.6-27B,Objects and facilities,0.0,0.5
+Water Systems,Qwen3.6-27B,Global scene,0.0,0.8333333333333334
+Water Systems,InternVL3-8B,Building and structure,0.0,0.0
+Water Systems,InternVL3-8B,Road and transport,0.0,0.0
+Water Systems,InternVL3-8B,Vegetation and terrain,0.0,0.0
+Water Systems,InternVL3-8B,Objects and facilities,0.0,0.3333333333333333
+Water Systems,InternVL3-8B,Global scene,0.0,0.6666666666666666
