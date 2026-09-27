@@ -62,6 +62,11 @@ Generated products are written to:
 - `data/geojson_output/`
 - `data/outputs/`
 
+Cross-view Datasets Download Links
+Baidu Netdisk - 百度网盘 🌐 (Password: 1111)
+https://pan.baidu.com/s/1jz_DcpeEO6jSQv-ryU8sTA?pwd=1111
+
+
 ## Workflow (Run Order)
 
 Run notebooks in the following order:
