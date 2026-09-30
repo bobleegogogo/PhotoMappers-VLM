@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/
+output/
+runs/
+*.log
+# the two checkpoints (1.2 GB each) are too large for a plain git repo; share them separately
+# (or via git-lfs / a release asset) and drop them into checkpoints/<branch>/
+checkpoints/**/*.pth

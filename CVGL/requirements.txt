@@ -1,0 +1,11 @@
+# Versions the published results were produced (and re-verified) with; Python 3.13, CUDA 12.6.
+# timm >= 1.0.20 is required for the DINOv3 backbones.
+torch==2.7.1
+timm==1.0.26
+albumentations==2.0.8
+transformers==5.3.0        # only for the LR schedulers
+opencv-python==5.0.0.93     # imported as cv2
+numpy==2.4.3
+pandas==3.0.1
+openpyxl==3.1.5            # reads the split spreadsheet
+tqdm
