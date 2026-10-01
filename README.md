@@ -88,7 +88,6 @@ Generated products are written to:
 <p align="center">
   <img src="images/dataset.png" width="100%">
 </p>
-<br>
 
 
 ## 🏃 Workflow (Run Order)
