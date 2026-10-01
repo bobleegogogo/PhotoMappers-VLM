@@ -14,20 +14,33 @@ This repository contains a reproducible notebook-first workflow for preparing, a
 ## Repository Layout
 
 ```text
-github_release/
+PhotoMappers-VLM/
 ├── 01_data_record_analysis.ipynb
 ├── 02_excel_to_geojson.ipynb
-├── 03_ Choropleth_Map.ipynb
+├── 03_Choropleth_Map.ipynb
 ├── 04_Longitudinal_Reasoning_Analysis.ipynb
 ├── 05_Longitudinal_lifelines.ipynb
 ├── 06_PhotoMappers_Geolocation_Visualization.ipynb
 ├── photomapper_common.py
-└── data/
-    ├── input/
-    ├── shapefiles/
-    ├── geojson_output/
-    ├── outputs/
-    └── raw-record/
+├── data/
+│   ├── input/
+│   ├── shapefiles/
+│   ├── geojson_output/
+│   ├── outputs/
+│   └── raw-record/
+├── CVGL/
+│   ├── .DS_Store
+│   ├── .gitignore
+│   ├── README.md
+│   ├── build_dataset.py
+│   ├── make_csvs.py
+│   ├── predict.py
+│   ├── requirements.txt
+│   ├── run_all.sh
+│   └── train.py
+└── Reasoning/
+    ├── Reasoning_with_description.py
+    └── Reasoning_without_description.py
 ```
 
 ## Environment Setup
@@ -69,11 +82,15 @@ Generated products are written to:
   👉 [https://drive.google.com/drive/folders/1jD8Qn8khAsu-e5V_HgQms-va3ZaC50Wh?usp=drive_link](https://drive.google.com/drive/folders/1jD8Qn8khAsu-e5V_HgQms-va3ZaC50Wh?usp=drive_link)
 
 - **Baidu Netdisk - 百度网盘** 🌐  (**Password: 1111**)  
-  👉 [https://pan.baidu.com/s/1JrKY-2J4_So_6JDYVgNuLg?pwd=1111](https://pan.baidu.com/s/1jz_DcpeEO6jSQv-ryU8sTA?pwd=1111)
+  👉 [https://pan.baidu.com/s/1jz_DcpeEO6jSQv-ryU8sTA?pwd=1111](https://pan.baidu.com/s/1jz_DcpeEO6jSQv-ryU8sTA?pwd=1111)
 
 
 
 ## Workflow (Run Order)
+
+Before running the analysis notebooks, first complete the cross-view geolocalization experiments in `CVGL/` and the VLM reasoning experiments in `Reasoning/`.
+
+Place the resulting data in the input locations expected by the notebooks.
 
 Run notebooks in the following order:
 
