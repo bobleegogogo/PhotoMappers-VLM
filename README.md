@@ -86,7 +86,7 @@ Generated products are written to:
 
 
 <p align="center">
-  <img src="./images/dataset.png" width="80%">
+  <img src="images/dataset.png" width="80%">
 </p>
 
 
