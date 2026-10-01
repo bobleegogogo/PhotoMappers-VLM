@@ -84,9 +84,9 @@ Generated products are written to:
 - **Baidu Netdisk - 百度网盘** 🌐  (**Password: 1111**)  
   👉 [https://pan.baidu.com/s/1jz_DcpeEO6jSQv-ryU8sTA?pwd=1111](https://pan.baidu.com/s/1jz_DcpeEO6jSQv-ryU8sTA?pwd=1111)
 
-
+<br>
 <p align="center">
-  <img src="images/dataset.png" width="80%">
+  <img src="images/dataset.png" width="100%">
 </p>
 
 
