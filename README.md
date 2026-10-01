@@ -4,14 +4,14 @@
 
 This repository contains a reproducible notebook-first workflow for preparing, analyzing, and visualizing PhotoMapper geolocation and reasoning data. The pipeline covers data cleaning, GeoJSON conversion, state-level spatial aggregation, longitudinal indicator analysis, lifeline analysis, and publication-ready visual summaries.
 
-## Project Highlights
+## ✨ Project Highlights
 
 - End-to-end notebook workflow with consistent file paths.
 - Clean root layout with centralized data under one folder.
 - Reproducible exports for both tabular and figure outputs.
 - Shared helper utilities in a reusable Python module.
 
-## Repository Layout
+## 📂 Repository Layout
 
 ```text
 PhotoMappers-VLM/
@@ -43,7 +43,7 @@ PhotoMappers-VLM/
     └── Reasoning_without_description.py
 ```
 
-## Environment Setup
+## ⚙️ Environment Setup
 
 Use Python 3.10+ (tested on Python 3.13 in VS Code/Jupyter).
 
@@ -55,7 +55,7 @@ pip install pandas numpy matplotlib seaborn geopandas shapely pyproj fiona mapcl
 
 If you already work inside an existing environment, install only missing packages.
 
-## Data Organization
+## 📦 Data Organization
 
 Place inputs in:
 
@@ -88,10 +88,10 @@ Generated products are written to:
 <p align="center">
   <img src="images/dataset.png" width="100%">
 </p>
+<br>
 
 
-
-## Workflow (Run Order)
+## 🏃 Workflow (Run Order)
 
 Before running the analysis notebooks, first complete the cross-view geolocalization experiments in `CVGL/` and the VLM reasoning experiments in `Reasoning/`.
 
@@ -108,7 +108,7 @@ Run notebooks in the following order:
 
 This order ensures each downstream notebook can consume previously generated outputs.
 
-## Notebook Summary
+## 📓 Notebook Summary
 
 ### 1) Data Record Analysis
 
@@ -145,13 +145,13 @@ This order ensures each downstream notebook can consume previously generated out
 - Consumes outputs from previous analyses.
 - Builds publication-style multi-panel geolocation figures.
 
-## Reproducibility Notes
+## 🔁 Reproducibility Notes
 
 - Notebooks use project-relative paths from repository root.
 - Use the shared helper module `photomapper_common.py` for common parsing logic.
 - If a notebook kernel is missing packages, install them in the active environment and rerun cells in order.
 
-## Citation
+## 📖 Citation
 
 If you use this workflow in academic work, please cite:
 
@@ -164,6 +164,6 @@ If you use this workflow in academic work, please cite:
 }
 ```
 
-## Acknowledgment
+## 🧑‍🤝‍🧑 Acknowledgment
 
 This repository design is inspired by research-oriented open-source releases that combine clear dataset instructions, reproducible workflows, and publication-ready outputs.
