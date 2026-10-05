@@ -158,8 +158,7 @@ If you use this workflow in academic work, please cite:
 @misc{li2026photomappers,
   title = {A Decade of PhotoMappers: A Longitudinal Study of Crowdsourced Disaster Photos Geolocalization with Vision-Language Models and Geospatial Reasoning},
   author = {Li, Hao and Yin, Wenping and Deuser, Fabian and Jia, Jia and Liu, Ziqi and Juhasz, Levente and Zhang, Fan and Biljecki, Filip},
-  year = {2026},
-  note = {Corresponding author: Hao Li (hao.li@nus.edu.sg)}
+  year = {2026}
 }
 ```
 
