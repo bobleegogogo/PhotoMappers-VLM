@@ -1,4 +1,4 @@
-# A Decade of PhotoMappers: A Longitudinal Study of Crowdsourced Disaster Photos Geolocalization with Vision-Language Models and Geospatial Reasoning
+# Anonymous Submission: A Longitudinal Study of Crowdsourced Disaster Photo Geolocalization with Vision-Language Models and Geospatial Reasoning
 
 ### Project Overview
 
@@ -14,7 +14,7 @@ This repository contains a reproducible notebook-first workflow for preparing, a
 ## 📂 Repository Layout
 
 ```text
-PhotoMappers-VLM/
+project-root/
 ├── 01_data_record_analysis.ipynb
 ├── 02_excel_to_geojson.ipynb
 ├── 03_Choropleth_Map.ipynb
@@ -78,11 +78,8 @@ Generated products are written to:
 
 #### 📥 Cross-view Datasets
 
-- **Google Drive** 🌐  
-  👉 [https://drive.google.com/drive/folders/1jD8Qn8khAsu-e5V_HgQms-va3ZaC50Wh?usp=drive_link](https://drive.google.com/drive/folders/1jD8Qn8khAsu-e5V_HgQms-va3ZaC50Wh?usp=drive_link)
-
-- **Baidu Netdisk - 百度网盘** 🌐  (**Password: 1111**)  
-  👉 [https://pan.baidu.com/s/1jz_DcpeEO6jSQv-ryU8sTA?pwd=1111](https://pan.baidu.com/s/1jz_DcpeEO6jSQv-ryU8sTA?pwd=1111)
+- Dataset access links are withheld in this double-blind version.
+- Review package data should be provided through the submission system's supplementary materials.
 
 <br>
 <p align="center">
@@ -152,12 +149,12 @@ This order ensures each downstream notebook can consume previously generated out
 
 ## 📖 Citation
 
-If you use this workflow in academic work, please cite:
+Citation details are intentionally omitted in this double-blind review branch.
 
 ```bibtex
-@misc{li2026photomappers,
-  title = {A Decade of PhotoMappers: A Longitudinal Study of Crowdsourced Disaster Photos Geolocalization with Vision-Language Models and Geospatial Reasoning},
-  author = {Li, Hao and Yin, Wenping and Deuser, Fabian and Jia, Jia and Liu, Ziqi and Juhasz, Levente and Zhang, Fan and Biljecki, Filip},
+@misc{anonymous2026,
+  title = {Anonymous Submission: Longitudinal Study of Crowdsourced Disaster Photo Geolocalization},
+  author = {Anonymous},
   year = {2026}
 }
 ```
